@@ -35,6 +35,30 @@
   del mercado, puerto maduro (kernel 6.18), barato. Menos RAM (4 GB).
 - 🥈 **Para potencia: OnePlus 6/6T.** SDM845 + 6-8 GB RAM, desbloqueo fácil,
   soporte excelente. El "portátil de trabajo" según la propia wiki.
+
+## 2.5 Franja económica: < 100 USD (~1,900 MXN) — solo USADOS
+
+**Nuevos por menos de 100 USD NO existen para esto:** esa franja nueva es
+MediaTek/Unisoc con bootloader cerrado y cero soporte Linux. El camino de
+presupuesto es 100 % usado.
+
+| Modelo | Precio usado aprox. | Por qué |
+|---|---|---|
+| **Pixel 3a / 3a XL** | 40-80 USD | ⭐ desbloqueo de 1 comando, puerto maduro, jack 3.5 |
+| **Pixel 3 / 3 XL** (blueline/crosshatch) | 40-80 USD | SDM845, puerto confirmado en pmaports v25.12 |
+| **OnePlus 5 / 5T** | 40-60 USD | community, lo más barato de OnePlus desbloqueable |
+| **OnePlus 6 / 6T** | 60-90 USD | SDM845 + 6-8 GB RAM, el de más potencia del rango |
+| Poco F1 | 50-70 USD | solo si es ganga: desbloqueo Xiaomi engorroso + arranque flaky |
+| Galaxy S7 / A5 2017 (Exynos intl.) | 30-60 USD | ports Exynos existen, pero variantes regionales/Knox = para manos expertas |
+
+**Top por presupuesto:** Pixel 3a (más fácil) o OnePlus 6 (más potencia) —
+ambos caben sobrados en <100 USD usados. Los SDM845 usados ya andan por
+~200 yuan (~28 USD) en China: el mercado de segunda mano está saturado de
+ellos, buen momento para comprar.
+
+Referencias extra del hallazgo: pmOS v26.06 ya cubre **254 dispositivos**
+(techtimes.com) y hay movimiento de "cyberdecks" reciclando viejos Pixel
+con pmOS (hackster.io "HaPlay GO Zero").
 - 🥉 **Poco F1: solo si aparece MUY barato.** Mismo chip que el OP6, pero el
   desbloqueo de Xiaomi es engorroso y tiene problemas de arranque/WiFi
   documentados.
