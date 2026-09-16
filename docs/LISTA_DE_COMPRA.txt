@@ -1,0 +1,80 @@
+LISTA DE COMPRA — celulares para Linux libre (postmarketOS/Droidian)
+====================================================================
+Generada: 15 sep 2026 | Repo: celulares-linux | Presupuesto: <100 USD
+Fuente del dato de ~28 USD (SDM845 usados en China, 200 yuan):
+  https://m.toutiao.com/article/7441522517245805091/  (articulo, NO tienda;
+  para comprar desde MX la via practica es AliExpress reacondicionado)
+
+====================================================================
+TIER A — CONFIRMADOS y baratos (la franja segura)
+====================================================================
+| Modelo (codename)          | SoC     | RAM  | Usado aprox | Linux | Desbloqueo |
+|----------------------------|---------|------|-------------|-------|------------|
+| Google Pixel 3a (sargo)    | SDM670  | 4 GB | 40-80 USD   | CONFIRMADO (pmOS community) | 1 comando fastboot |
+| Google Pixel 3a XL (bonito)| SDM670  | 4 GB | 45-85 USD   | CONFIRMADO | 1 comando |
+| Google Pixel 3 (blueline)  | SDM845  | 4 GB | 40-80 USD   | CONFIRMADO (port en pmaports v25.12) | 1 comando |
+| Google Pixel 3 XL (crosshatch)| SDM845| 4 GB | 45-85 USD   | verificar en wiki | 1 comando |
+| OnePlus 6 (enchilada)      | SDM845  | 6-8 GB| 60-90 USD  | CONFIRMADO (pmOS community) | fastboot oem unlock |
+| OnePlus 6T (fajita)        | SDM845  | 6-8 GB| 60-90 USD  | CONFIRMADO | fastboot oem unlock |
+| OnePlus 5 (cheeseburger)   | SDM835  | 6-8 GB| 40-60 USD  | community | fastboot oem unlock |
+| OnePlus 5T (dumpling)      | SDM835  | 6-8 GB| 45-65 USD  | community | fastboot oem unlock |
+| OnePlus 3/3T (oneplus3)    | SDM820/821| 6 GB| 30-50 USD  | community | fastboot oem unlock |
+| Poco F1 (beryllium)        | SDM845  | 6-8 GB| 50-70 USD  | community (arranque flaky) | cuenta Xiaomi + espera |
+
+PICKS: Pixel 3a (mas facil) | OnePlus 6 (mas potencia) | Pixel 3 (mejor combo)
+
+====================================================================
+TIER B — OPORTUNIDADES de gama superior (cayeron de precio; VERIFICAR
+soporte en wiki.postmarketos.org/wiki/Devices antes de comprar)
+====================================================================
+| Modelo (codename)          | SoC      | Por que es oportunidad |
+|----------------------------|----------|------------------------|
+| Google Pixel 4 (flame)     | SDM855   | 6 GB, flagship barato |
+| Google Pixel 4a (sunfish)  | SDM730G  | el favorito de la comunidad |
+| Google Pixel 5 (redfin)    | SDM765G  | 8 GB, moderno |
+| Google Pixel 6a (bluejay)  | Tensor G1| potente y ya cae a usado |
+| OnePlus 7 (guacamoleb)     | SDM855   | flagship a precio medio |
+| OnePlus 7 Pro (guacamole)  | SDM855   | 6-12 GB RAM |
+| OnePlus 8 (instantnoodle)  | SDM865   | 5G, potente |
+| Xiaomi Mi 9 (cepheus)      | SDM855   | barato, comunidad enorme |
+| Redmi K20 Pro / Mi 9T Pro (raphael) | SDM855 | motorizado, gama alta economica |
+| Poco F3 (alioth)           | SDM870   | el "rey" costo-rendimiento usado |
+| Samsung S10e (beyond0lte)  | Exynos 9820 | compacto; SOLO variante intl (G970F) |
+| Samsung S20 (x1s)          | Exynos 990 | intl solo; verificar |
+| Fairphone 3 / 3+           | SDM632   | soporte main oficial pmOS |
+| SHIFT6mq                  | SDM845   | categoria MAIN en pmOS |
+
+====================================================================
+TIER C — Linux DE FABRICA (sin pelear, mas caros)
+====================================================================
+| Modelo                | Precio usado aprox | Nota |
+|-----------------------|--------------------|------|
+| PinePhone             | 80-150 USD         | pmOS main; hardware modesto |
+| PinePhone Pro         | 200-300 USD        | mas potente |
+| SHIFT6mq              | 200-400 USD        | pmOS main |
+| Fairphone 4           | 150-250 USD        | pmOS main |
+| Purism Librem 5       | 400-700 USD        | el mas libre (caro) |
+
+====================================================================
+REGLAS DE COMPRA (no saltarse)
+====================================================================
+1. Pixel: SOLO "Factory Unlocked" (edicion Google). Los de Verizon NO se
+   desbloquean (bootloader cerrado).
+2. OnePlus: evitar variante T-Mobile US; preferir A6003/A6013 global.
+3. Samsung: SOLO variantes internacionales (modelo terminado en F, ej.
+   G970F); los de EE.UU. (U/U1/W) vienen con bootloader cerrado.
+4. Preguntar al vendedor: "bootloader desbloqueable? (OEM unlocking)".
+5. Sin cuenta Google bloqueada (FRP). Bateria sana. Pantalla sin quemaduras.
+6. Antes de pagar, pegar el listado al agente para validar modelo y precio.
+7. Objetivo: equipo + envio < 100 USD (Tier A lo cumple; Tier B si hay oferta).
+
+====================================================================
+ENLACES DE BUSQUEDA (abrir en el navegador; las tiendas bloquean bots)
+====================================================================
+- Mercado Libre MX:  listado.mercadolibre.com.mx/<modelo>-usado
+  ej: pixel-3a-usado | oneplus-6-usado | pixel-3-usado
+- eBay (usados, Comprar ya):
+  https://www.ebay.com/sch/i.html?_nkw=pixel+3a+unlocked&_sacat=0&LH_ItemCondition=3000&LH_BIN=1&rt=nc
+  (cambiar el modelo en _nkw; filtrar "Ships to: Mexico")
+- AliExpress: https://es.aliexpress.com/w/wholesale-pixel-3a.html
+- Facebook Marketplace (radio local): buscar por modelo.
