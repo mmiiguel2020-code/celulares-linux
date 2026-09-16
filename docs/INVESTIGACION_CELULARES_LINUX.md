@@ -41,6 +41,11 @@
 **Nuevos por menos de 100 USD NO existen para esto:** esa franja nueva es
 MediaTek/Unisoc con bootloader cerrado y cero soporte Linux. El camino de
 presupuesto es 100 % usado.
+Dato real de Miguel (15 sep 2026): compró un celular NUEVO "con todo lo
+normal de Android" en Mercado Libre MX por 600 MXN (~30 USD) — ese equipo es
+de la categoría cerrada (bootloader de fábrica, sin comunidad): perfecto
+ejemplo de que NUEVO barato = Android básico, mientras USADO al mismo precio
+= Pixel/OnePlus con Linux desbloqueable.
 
 | Modelo | Precio usado aprox. | Por qué |
 |---|---|---|
