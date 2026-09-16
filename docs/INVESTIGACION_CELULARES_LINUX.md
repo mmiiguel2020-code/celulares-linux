@@ -107,3 +107,45 @@ con pmOS (hackster.io "HaPlay GO Zero").
 - postmarketos.org/install (imágenes precompiladas)
 - docs.droidian.org (FAQ de Droidian)
 - Lista de dispositivos: wiki.postmarketos.org/wiki/Devices
+
+## 8. Dónde comprar (alcance local / nacional / internacional)
+
+### 8.1 Local (Cd. Obregón / Sonora)
+- **Facebook Marketplace** con radio 50-100 km: buscar "Pixel 3a", "Pixel 3",
+  "OnePlus 6". Probabilidad baja (son equipos raros en la región), pero hay
+  sorpresas y se puede probar el equipo EN PERSONA antes de pagar.
+- Casas de empeño locales: poca probabilidad para Pixel/OnePlus (dominan
+  iPhone/Samsung); vale una vuelta si ya se está cerca.
+
+### 8.2 Nacional (México, con envío)
+- **Mercado Libre México**: buscar "Pixel 3a usado", "OnePlus 6 8GB",
+  "Pixel 3 desbloqueado". Filtrar por "Usado/Reacondicionado", leer
+  reputación del vendedor y devoluciones. OJO: en ML-MX suelen estar
+  MÁS CAROS que en eBay (a veces el doble); comparar antes.
+- **Facebook Marketplace nacional** (con envío): mismos términos de búsqueda.
+- Tiendas mexicanas de reacondicionados en línea (revisar cuáles tienen
+  Pixel/OnePlus en catálogo).
+
+### 8.3 Internacional (el mejor precio-calidad)
+- **eBay US con envío a México** ⭐: filtrar "Ships to Mexico" (el programa
+  de envío internacional muestra impuestos por adelantado). Pixel 3a
+  desbloqueado ~40-70 USD + ~15-25 USD de envío. Revisar: vendedor con
+  feedback alto, "Factory Unlocked", devoluciones aceptadas.
+- **AliExpress**: Pixel 3a/OnePlus 6 reacondicionados con envío a México
+  (2-4 semanas); preferir vendedores con almacén en EE.UU. y miles de
+  ventas. (Ver listado de Xataka sobre Pixels en AliExpress.)
+- **Amazon US**: solo artículos con "envío internacional elegible"; los
+  impuestos se calculan al pagar.
+
+### 8.4 ⚠️ Cómo NO equivocarse al comprar (crítico para el desbloqueo)
+1. **Pixel: comprar SOLO "Factory Unlocked" (edición Google).** Los Pixel de
+   Verizon vienen con bootloader BLOQUEADO y no se desbloquean (igual que el
+   Note 8 de Miguel). Preguntar al vendedor o revisar el modelo exacto.
+2. **OnePlus 6: evitar la variante T-Mobile US** (pide código de desbloqueo);
+   preferir A6003 (internacional/global).
+3. Preguntar siempre al vendedor: "¿bootloader desbloqueable? (OEM unlocking)".
+4. Revisar: batería de salud razonable, pantalla sin quemaduras (AMOLED),
+   botones firmes, sin cuenta Google bloqueada (FRP) — pedir foto del menú
+   de ajustes si es Marketplace/eBay con fotos dudosas.
+5. Presupuesto total objetivo: **equipo + envío < 100 USD** (Pixel 3a lo
+   cumple sobrado; OnePlus 6/6T también en la mayoría de listados).
