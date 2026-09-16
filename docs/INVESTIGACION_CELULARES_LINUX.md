@@ -160,3 +160,27 @@ con pmOS (hackster.io "HaPlay GO Zero").
    de ajustes si es Marketplace/eBay con fotos dudosas.
 5. Presupuesto total objetivo: **equipo + envío < 100 USD** (Pixel 3a lo
    cumple sobrado; OnePlus 6/6T también en la mayoría de listados).
+
+### 8.5 Enlaces listos para abrir EN EL NAVEGADOR (las tiendas bloquean bots)
+
+Los marketplaces bloquean el acceso automatizado (403/redirects), así que la
+búsqueda fina se hace a mano con estos enlaces y se pega el listado aquí
+para validarlo antes de pagar:
+
+- Mercado Libre MX (usados):
+  `https://listado.mercadolibre.com.mx/pixel-3a-usado`
+  `https://listado.mercadolibre.com.mx/oneplus-6-usado`
+  `https://listado.mercadolibre.com.mx/pixel-3-usado`
+- eBay (solo usados + Comprar ya):
+  `https://www.ebay.com/sch/i.html?_nkw=pixel+3a+unlocked&_sacat=0&LH_ItemCondition=3000&LH_BIN=1&rt=nc`
+  (cambiar a `oneplus+6+unlocked` según el modelo; filtrar "Ships to: Mexico")
+- AliExpress (reacondicionados):
+  `https://es.aliexpress.com/w/wholesale-pixel-3a.html`
+- Facebook Marketplace (radio local):
+  buscar `pixel 3a` / `oneplus 6` en la app.
+
+Datos de precio REALES encontrados (15 sep 2026):
+- eBay: Pixel 3a NUEVO sellado = 194 USD (~3,340 MXN) → el NUEVO no conviene.
+- Refurb europeo (refurbed.es): Pixel 3a ~103 EUR → referencia de reacondicionado.
+- Mercado chino de usados: SDM845 desde ~200 yuan (~28 USD) → los USADOS
+  son la franja correcta para <100 USD.
