@@ -46,6 +46,12 @@ normal de Android" en Mercado Libre MX por 600 MXN (~30 USD) — ese equipo es
 de la categoría cerrada (bootloader de fábrica, sin comunidad): perfecto
 ejemplo de que NUEVO barato = Android básico, mientras USADO al mismo precio
 = Pixel/OnePlus con Linux desbloqueable.
+Ejemplo CONFIRMADO (15 sep): "5 pulgadas, 32 GB, 2 GB RAM, 3G, Android Go 14,
+Unisoc SC7731E, 580 MXN nuevo" → ❌ DESCARTADO: (1) bootloader cerrado sin
+desbloqueo conocido; (2) chip de 2017 ARMv7 32-bit sin soporte mainline
+Linux (ni siquiera aparece en la lista de pmOS); (3) 2 GB/32-bit/3G =
+máquina de WhatsApp, no computadora. Regla práctica: si dice "Android Go"
+o "Unisoc SC77xx/MediaTek A-series", es de la categoría cerrada.
 
 | Modelo | Precio usado aprox. | Por qué |
 |---|---|---|
