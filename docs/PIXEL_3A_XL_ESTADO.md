@@ -38,7 +38,27 @@ Prueba documental: **etiqueta de la batería** (foto del 17 sep):
 - Consecuencia: sin USB-C no hay fastboot → **imposible verificar desbloqueo
   ni flashear** postmarketOS hasta repararlo.
 
-## Plan elegido: MICROSOLDADURA
+## DOS piezas distintas (verificado con fotos de tienda, 17 sep)
+
+Existen DOS productos que se confunden; imagenes revisadas con vision:
+
+**A) ENSAMBLE COMPLETO — "Charging Port Flex Cable for Google Pixel 3a XL"**
+- Foto (TVCMALL 090201704A): conector FPC dorado (arriba) + flex negro con
+  barreno + **2 orejitas con barreno para tornillos** + **puerto USB-C** con
+  la marca "8B17A" grabada (abajo).
+- Se **ENCHUFA** al conector FPC de la placa madre: **cero soldadura**.
+- Precio: MX$80.90 en AliExpress (E-KINLIN, envio gratis) / ~5-15 USD tiendas.
+- ✅ **ESTA ES LA QUE SE NECESITA.**
+
+**B) CONECTOR SUELTO — "USB charging dock connector", para SOLDAR**
+- Foto (Preciosadictos 45560, 3,50 EUR): solo la hembra USB-C con patitas
+  doradas + las 2 orejitas. La ficha dice textualmente "para soldar".
+- Implica **microsoldadura de 16+ pines a 0.3 mm**. Solo si se quiere
+  reutilizar el flex viejo.
+
+DECISION: comprar **A** (ensamble completo). El flex viejo queda de repuesto.
+
+## Plan (actualizado)
 1. **Foto de acercamiento** del área del conector en la placa madre y del
    extremo del flex → determinar si se rompió:
    - el **flex** (se cambia la pieza completa: "Charging Port Flex Cable for
