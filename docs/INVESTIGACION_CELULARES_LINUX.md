@@ -179,6 +179,34 @@ para validarlo antes de pagar:
 - Facebook Marketplace (radio local):
   buscar `pixel 3a` / `oneplus 6` en la app.
 
+## 9. Cómo verificar si un candidato es desbloqueable (antes de pagar o al recibirlo)
+
+Herramientas YA instaladas en la laptop de Miguel (no descargar nada):
+`C:\Users\MIGUEL\scoop\apps\adb\current\platform-tools\` (adb.exe + fastboot.exe)
+
+### 9.1 Filtro rápido SIN cables (en el propio teléfono)
+1. Ajustes → Acerca del teléfono → tocar "Número de compilación" 7 veces.
+2. Ajustes → Sistema → Opciones de desarrollador → buscar **"Desbloqueo OEM"**:
+   - El interruptor existe y SE DEJA activar → casi seguro desbloqueable ✅
+   - Está en GRIS o no aparece → variante de operador (Verizon/AT&T) ❌
+
+### 9.2 Verificación definitiva por fastboot (con cable)
+1. Apagar el teléfono por completo.
+2. Mantener **Volumen Abajo + Encendido** ~8 s → pantalla de bootloader.
+3. Conectar el cable USB directo a la laptop (no a un hub).
+4. En CMD/PowerShell desde la carpeta platform-tools:
+   `fastboot devices`  ← debe listar un serial + la palabra "fastboot"
+5. **Para PIXEL** (comando correcto; `oem_unlock_supported` NO existe en
+   Pixel, es de otras marcas):
+   `fastboot flashing get_unlock_ability`
+   - `get_unlock_ability: 1` → ✅ desbloqueable (Linux adelante)
+   - `get_unlock_ability: 0` → ❌ bloqueado de fábrica (Verizon)
+   - Extra: `fastboot getvar unlocked` muestra el estado actual (yes/no).
+6. Para OnePlus: `fastboot oem device-info` (muestra "OEM unlock allowed");
+   el desbloqueo real es `fastboot oem unlock`.
+7. ⚠️ NO ejecutar `fastboot flashing unlock` durante la comprobación: eso
+   BORRA todo el teléfono. La comprobación de arriba no borra nada.
+
 Datos de precio REALES encontrados (15 sep 2026):
 - eBay: Pixel 3a NUEVO sellado = 194 USD (~3,340 MXN) → el NUEVO no conviene.
 - Refurb europeo (refurbed.es): Pixel 3a ~103 EUR → referencia de reacondicionado.
