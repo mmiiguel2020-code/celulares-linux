@@ -10,6 +10,25 @@
 - Modelos posibles del 3a XL: G020A / G020B / G020C / G020D (verificar en la
   tapa trasera o el marco; importa para pedir la pieza correcta).
 
+## ✅ MODELO CONFIRMADO 17 sep: **Pixel 3a XL** (variante G020A/B)
+
+Prueba documental: **etiqueta de la batería** (foto del 17 sep):
+- Modelo: **`G020A-B` (1ICP5/64/74)** → código del **Pixel 3a XL**
+- Capacidad: **3700 mAh / 14.24 Wh** → el Pixel 3a normal tiene 3000 mAh
+- Fabricante: Huizhou Desay Battery Co., Ltd (proveedor original)
+- N/P batería: `G8230010801` / `G82300108012AA`
+- Certificaciones: PSE, R33724, UL, CE, BSMI
+
+→ Al pedir repuestos usar SIEMPRE la variante **"For Pixel 3a XL"**
+(no "Pixel 3a" ni "Pixel 3 XL").
+
+## Piezas del teléfono (inventario del 17 sep)
+- ✅ Placa madre (conector FPC visiblemente INTACTO en macros)
+- ✅ Flex `G653-00595-02` (2018/08/08) — **intacto**, etiqueta legible
+- ❌ **FALTA la plaquita del puerto USB-C** (lo que Miguel llama "la placa")
+- ❌ Falta la pantalla (irrelevante para uso headless)
+- ❌ Falta la batería (está fuera; presente pero no instalada)
+
 ## Estado físico
 - **Sin pantalla** (para uso headless como placa no importa).
 - **Placa madre extraída** por Miguel; se descubrió que el **puerto USB-C NO
