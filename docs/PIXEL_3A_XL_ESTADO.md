@@ -38,6 +38,30 @@
    fastboot flashing get_unlock_ability
    ```
 
+## ACTUALIZACION 17 sep — pieza ENCONTRADA (AliExpress)
+
+- Tienda: **E-KINLIN** — "Puerto de carga USB conector de clavija cargador
+  Cable flexible para Google Pixel 3a XL"
+- Variante correcta seleccionada: **For Pixel 3a XL** ✅
+- Precio: **MX$80.90** (~4.40 USD), **envío gratis** en el primer pedido,
+  5.0★, 43 vendidos, devoluciones gratis.
+- Confianza extra: la etiqueta del flex del listado es `G653-0...`, la MISMA
+  familia que la etiqueta de la placa de Miguel (`G653-00595-02`).
+- DECISION: comprar **2 piezas** (repuesto, por lo barato).
+- ⚠️ Verificar en el carrito que diga **3a XL** (no "3a" ni "3 XL").
+
+### Inspección de la placa (fotos 17 sep, con lupa)
+- El **conector FPC de la placa madre se ve INTACTO** (fila de pines dorados
+  completa, carcasa presente) → si es así, **la pieza nueva solo se enchufa**
+  (cero microsoldadura). La vía de soldar cables a puntos de prueba queda
+  como plan B.
+- El flex de la placa (etiqueta `G653-00595-02`, 2018-08-08) también se vio
+  completo en las macros.
+- Sobre los **puntos de prueba redondos (1 mm)**: NO se pueden identificar
+  (VBUS/GND/D+/D-) por foto. Método seguro: GND por continuidad al blindaje;
+  los otros 3 con **el flex como mapa** (medir del pin del USB-C del flex a
+  sus contactos FPC y de ahí a los test points de la placa).
+
 ## Repuestos (enlaces)
 - MobileSentrix: mobilesentrix.com/replacement-parts/google-pixel/pixel/google-pixel-3a-xl
 - Cell Parts World: cellpartsworld.com/product/google-pixel-3a-xl-g020c-f-charging-port-flex/
