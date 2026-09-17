@@ -110,3 +110,12 @@ DECISION: comprar **A** (ensamble completo). El flex viejo queda de repuesto.
 Mientras se repara, sirve como **donante de partes** (batería, cámara, motor
 de vibración). Y para la meta original (saber si es desbloqueable), la vía
 más rápida sigue siendo un teléfono que arranque: 2 comandos de fastboot.
+
+## CONFIRMACION DEFINITIVA (17 sep, foto 2 del producto)
+La segunda foto del listado muestra la pieza con etiqueta **G653-005...**
+y fecha **18-0807** -> ES LA MISMA PIEZA que el flex de Miguel
+(G653-00595-02, fecha 2018/08/08; un dia de diferencia = mismo lote).
+La pieza incluye EN SU PUNTA el **puerto USB-C** + blindaje metalico +
+2 orejitas. Por lo tanto NO son 3 piezas separadas (USB-C + placa de carga +
+flex): es **UN SOLO ENSAMBLE FLEXIBLE**. Comprar el ensamble reemplaza todo
+el tramo y se instala enchufando/atornillando (cero soldadura).
